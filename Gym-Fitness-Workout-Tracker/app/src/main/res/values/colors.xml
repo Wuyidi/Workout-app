@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5F53A5 </color>
+    <color name="colorPrimaryDark">#322854</color>
+    <color name="colorAccent">#944FB4</color>
+
+    <!-- Background -->
+    <color name="background_color">#F2F3D9</color>
+    <color name="nav_background_color">#DBD2E0</color>
+
+    <!-- Button -->
+    <color name="button_color">#15a9a1</color>
+    <color name="button_text">#F2F3D9</color>
+    <color name="button_color_pressed">#446789</color>
+
+    <!-- Navigation -->
+    <color name="nav_text">#000000</color>
+
+
+    <!-- Toast -->
+    <color name="toast_color">#b2c0e5</color>
+    
+    <!-- Toggle Button -->
+    <color name="start_color">#21e31f</color>
+    <color name="stop_color">#e30f1e</color>
+
+
+    <!-- List Item -->
+    <color name="exercise_focusArea">#8799d1</color>
+
+
+    <!-- Login -->
+    <color name="login_button">#f2fe71</color>
+    <color name="login_button_pressed">#ff6861</color>
+    <color name="login_background">#ae98ff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+
+    <!-- Sign out -->
+    <color name="sign_out_button">#ff5c3e</color>
+    <color name="sign_out_button_pressed">#922b00</color>
+
+    <!-- Spinner -->
+    <color name="spinner_text">#ff2a6e</color>
+
+    <!-- Routine Card View -->
+    <color name="routine_name_text">#003ea1</color>
+    <color name="exercise_count">#eaa3a1</color>
+
+</resources>

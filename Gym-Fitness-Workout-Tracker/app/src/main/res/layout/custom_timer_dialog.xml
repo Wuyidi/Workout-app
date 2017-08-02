@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:weightSum="1"
+    android:background="@drawable/dialog_with_shadow">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interval Timer"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_view_size_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/showTimerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_view_size_large"
+        android:text="00:00:00"
+        android:textAlignment="center"
+        android:textColor="@color/nav_text"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/dialog_resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/button"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:hint="RESET"
+            android:textColorHint="@color/button_text"
+            />
+
+        <ToggleButton
+            android:id="@+id/dialog_toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/toggle_button"
+            android:checked="true"
+            android:textColor="@color/button_text"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textOff="stop"
+            android:textOn="start" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "202166484623",
+    "firebase_url": "https://gym-fitness-workout-tracker.firebaseio.com",
+    "project_id": "gym-fitness-workout-tracker",
+    "storage_bucket": "gym-fitness-workout-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202166484623:android:a5c1109886e64f62",
+        "android_client_info": {
+          "package_name": "edu.monash.fit4039.gym_fitness_workout_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202166484623-cs7lp1basbg4c4ce50ovep0fn17u9rcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGSCG8NZAAQkqzAH7DTqFt7-Pi3FdwEQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">GFWT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in GFWT now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+
+    <!-- Strings related to create profile -->
+    <string name="hint_weight">Weight (in kg)</string>
+    <string name="hint_height">Height (in cm)</string>
+
+
+    <!-- String related to sign up -->
+    <string name="btn_sign_up">REGISTER</string>
+
+    <!-- String related to reset password -->
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_reset_password">Reset Password</string>
+
+    <!-- String related to error -->
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <!-- String related to setting -->
+    <string name="hint_optional">Optional</string>
+    <string name="hint_new_email">New Email</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="btn_change_email">Change Email</string>
+    <string name="btn_change_password">Change Password</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="btn_update">Update</string>
+    <string name="update_email_success">Email address is updated. Please sign in with new email id!</string>
+    <string name="update_email_failed">Failed to update email!</string>
+    <string name="update_email_error">Enter a new Email!</string>
+    <string name="update_pass_success">Password is updated, sign in with new password!</string>
+    <string name="update_pass_failed">Failed to update password!</string>
+    <string name="update_pass_error">Enter a new password!</string>
+
+    <!-- String related to firebase -->
+    <string name="load_profile_failed">Failed to load user</string>
+
+
+    <!-- String related to factor adapter -->
+    <string name="sedentary">If you are sedentary(little or no exercise)</string>
+    <string name="lightly_active">If you are lightly active(sports 1-3 days/week)</string>
+    <string name="moderately_active">If you are moderately active(sports 3-5 days/week)</string>
+    <string name="very_active">If you are very active(sports 6-7 days/week)</string>
+    <string name="total_calories">How many calories you need to eat to maintain your current weight?</string>
+
+    <!-- Difficulty group -->
+    <string-array name="exercise_difficulty">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <!-- Impact level group -->
+    <string-array name="impact_level">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <!-- Focus area group -->
+    <string-array name="focus_area">
+        <item>Triceps</item>
+        <item>Biceps</item>
+        <item>Back</item>
+        <item>Glutes</item>
+        <item>Cardio</item>
+        <item>Shoulders</item>
+        <item>Chest</item>
+        <item>Abs</item>
+        <item>Calves</item>
+
+    </string-array>
+
+    <!-- String related to Routine -->
+    <string name="hint_new_routine_name">New Name</string>
+    <string name="hint_build_routine">Build Your Routine</string>
+
+
+    <!-- String related to Reps and Sets -->
+    <string name="hint_new_reps">Reps</string>
+    <string name="hint_new_sets">Sets</string>
+    <string name="choose_sets_reps">Adjust training values</string>
+
+    <!-- String related to Google Map Api -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD15pTtOdkeDwWQyXRiMj1ph3cRO2-f7jA</string>
+    
+    <!-- About -->
+    <string name="firebaseUI_website">FirebaseUI for Android - UI Bindings for Firebase \nhttps://opensource.google.com/projects/firebaseui</string>
+    <string name="firebase_website">Firebase \nhttps://firebase.google.com/</string>
+    <string name="google_map_website">Google Map \nhttps://developers.google.com/maps/documentation/android-api/</string>
+    <string name="about_email">Send your seggestion and feedback to: \nywu345@student.monash.edu</string>
+    <string name="notice">This app uses the following third party libraries to make my life easier. Thank you.</string>
+    <string name="circle_image_view_title">Henning Dodenhof(CircleImageView)</string>
+    <string name="circle_image_view_text">Copyright 2014 - 2017 Henning Dodenhof\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n   http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="circle_image_view_url">https://github.com/hdodenhof/CircleImageView</string>
+</resources>
